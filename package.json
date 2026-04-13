@@ -1,0 +1,18 @@
+{
+  "name": "string-similarity",
+  "version": "1.0.0",
+  "description": "Levenshtein, Jaro-Winkler and Dice coefficient",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": ["string", "similarity", "levenshtein", "jaro-winkler", "dice"],
+  "author": "Tox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^20.0.0"
+  }
+}
